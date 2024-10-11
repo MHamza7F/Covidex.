@@ -305,8 +305,8 @@ if (isset($_POST['savedata'])) {
     $vmail->isSMTP();
     $vmail->Host = 'smtp.gmail.com';
     $vmail->SMTPAuth = true;
-    $vmail->Username = 'hamzxtyt8@gmail.com';
-    $vmail->Password = 'eodrsxvbyuinthkl';
+    $vmail->Username = '"please enter your email"';
+    $vmail->Password = '"please enter your password secret key"';
     $vmail->SMTPSecure = \PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS; 
     $vmail->Port = 587;
 
